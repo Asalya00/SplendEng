@@ -1,0 +1,68 @@
+.dialog-box-1 {
+  border: solid 3px rgba(46, 233, 195, 0.6);
+
+  box-shadow: 0 0 0 4px #0cbaba;
+}
+p {
+  text-align: left;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px !important;
+}
+.img {
+  width: 150px;
+  height: 150px;
+  margin-bottom: 10px;
+  border-radius: 70%;
+  box-shadow: 0 0 0 4px #0cbaba;
+  border: solid 3px rgba(46, 233, 195, 0.6);
+  margin-top: 10px;
+}
+audio {
+  width: 250px;
+  margin-bottom: 5px;
+}
+marquee {
+  color: #0cbaba;
+  font-family: Patrick Hand;
+  font-size: 25px;
+  margin-top: 10px;
+}
+.img-1 {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 10px;
+
+  margin-top: 10px;
+}
+.gtco-staff {
+  text-align: center;
+  margin-bottom: 7em;
+  float: left;
+  width: 100%;
+}
+.gtco-staff img {
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 0%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.gtco-staff img:hover {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 20px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 0%;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+h4 {
+  margin-left: 85px;
+}

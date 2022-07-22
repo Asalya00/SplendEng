@@ -1,0 +1,83 @@
+h1,
+h2,
+p {
+  font-family: Patrick Hand !important;
+  font-weight: bold;
+}
+.gtco-staff img {
+  width: 200px;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 0%;
+  border: solid #0cbaba;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gtco-staff img:hover {
+  width: 200px;
+  margin-bottom: 10px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 0%;
+  border: solid white;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.gtco-container-1-youtube {
+  background-color: white !important;
+  /* max-width: 1140px; */
+  position: relative;
+  margin: 0 auto;
+  /* /* padding-left: 15px;
+  padding-right: 15px; */
+}
+.vertical {
+  border-right: 10px solid #009dae;
+  height: 1700px;
+  position: absolute;
+  right: 97%;
+  vertical-align: top;
+  margin-bottom: 50px;
+}
+.vertical-1 {
+  border-right: 12px solid #0cbaba;
+  height: 1700px;
+  position: absolute;
+  right: 96%;
+  vertical-align: top;
+  margin-bottom: 50px;
+}
+.gtco-section {
+  padding: 0.5em 0;
+  clear: both;
+  position: relative;
+}
+.youtube-icon {
+  height: 100px;
+  width: 100px;
+}
+hr {
+  width: 3%;
+
+  border: 5px;
+  border-style: dotted none none;
+  border-color: rgba(46, 233, 195, 0.6);
+}
+.hr-2 {
+  margin-top: 1px;
+  width: 98%;
+
+  border: 2px;
+  border-style: solid none none;
+  border-color: rgba(46, 233, 195, 0.6);
+  margin-left: 55px;
+}
+.description {
+  color: grey !important;
+}

@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* body {
+  font-size: 120%;
+  background: #f8f8ff;
+} */
+body {
+  background: linear-gradient(-45deg, #0cbaba, white, #219f94, #b8fff9);
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+a:hover,
+a:visited,
+a:link,
+a:active {
+  text-decoration: none !important;
+}
+h1,
+p,
+h2,
+a {
+  font-family: Patrick Hand !important;
+}
+
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #0cbaba;
+  text-align: center;
+  border: 1px solid #0cbaba;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+form,
+.content {
+  width: 30%;
+  margin: 0px auto;
+  padding: 20px;
+  border: 3px solid #0cbaba;
+
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #0cbaba;
+}
+.btn {
+  padding: 10px 20px !important;
+
+  background: #0cbaba !important;
+
+  font-family: Patrick Hand;
+  color: #ffffff !important;
+  font-size: 15px;
+  padding: 8px 18px 8px 18px;
+  text-decoration: none !important;
+}
+label {
+  font-family: Patrick Hand !important;
+}
+
+.btn-info {
+  background: #0cbaba !important;
+  color: #fff !important;
+  border: 2px solid #0cbaba !important;
+  font-family: Patrick Hand !important;
+  padding: 10px 20px !important;
+}
+
+.success {
+  color: #3c763d;
+  background: #dff0d8;
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+

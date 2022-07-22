@@ -1,0 +1,13 @@
+.gtco-staff img{
+ 
+        width: 100px !important;
+        height: 100px !important;
+        margin-bottom: 20px;
+        -webkit-border-radius: 0 !important;
+        -moz-border-radius: 0 !important;
+        -ms-border-radius: 0 !important;
+        border-radius: none !important;
+        border: none !important;
+       
+      }
+}
